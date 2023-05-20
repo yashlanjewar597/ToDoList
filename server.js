@@ -15,7 +15,7 @@ process.env.URI
 
 async function run() {
 
-    await mongoose.connect(process.env.URI);
+    await mongoose.connect(" mongodb+srv://yashlanjewar597:yash@cluster0.f8sxdog.mongodb.net/todolists?retryWrites=true&w=majority");
     
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   }
